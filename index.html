@@ -1,0 +1,87 @@
+<html lang="en" class="siipul">
+  <head>
+    <meta charset="UTF-8">
+    <style data-styles="">
+      ion-icon{
+        visibility:hidden
+        }
+      .siipul{
+        visibility:inherit
+        }
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <meta name="author" content="Saipulipoel">
+    <meta name="description" content="Generate color for your coloring references">
+    <meta name="keywords" content="color, color palette, color scheme, color wheel, color palette generator">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Color Generator</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-logo"><a href="/">Color Palette Generator</a></div>
+        <div class="nav-links">
+          <ul>
+            <li>
+              <a href="https://github.com/saipulipoel/" target="_blank"><ion-icon name="logo-github" role="img" class="md siipul" aria-label="logo github"></ion-icon> Repository </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <div class="btn-container">
+          <button id="generateBtn">Generate Color</button>
+        </div>
+        <h4>Generating a Random Palette with 5 Random Color For Your Coloring References</h4>
+        <div class="row">
+          <div class="col-12">
+            <label>Number Of Palette</label>
+            <input class="form-control" type="number" value="6" id="numberOfPalette">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label>Color Mode</label>
+            <select class="form-select" id="colorMode">
+              <option value="RGB">RGB</option>
+              <option value="RGBA">RGBA</option>
+            </select>
+          </div>
+        </div>
+        <section class="palette-container" id="paletteContainer">
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p>Created by SaipulIpoel</p>
+      <ul>
+        <li>
+          <a href="https://twitter.com/s_a_i_f_m_h" target="_blank"><ion-icon name="logo-twitter" role="img" class="md siipul" aria-label="logo twitter"></ion-icon></a>
+        </li>
+        <li>
+          <a href="https://github.com/saipulipoel" target="_blank"><ion-icon name="logo-github" role="img" class="md siipul" aria-label="logo github"></ion-icon></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/saif-masharil-huda-10ab98139/"><ion-icon name="logo-linkedin" role="img" class="md siipul" aria-label="logo linkedin"></ion-icon></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src=""></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./assets/js/jquery_3.7.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    
+
+</body>
+</html>
